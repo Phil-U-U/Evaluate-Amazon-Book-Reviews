@@ -20,7 +20,7 @@ Here is our model:
 
 ## Web App
 
-We design the following app for the users to interact with the algorithm and evaluate the quality of reviews. 
+The following is the interface of the app designed for the users to interact with the algorithm and evaluate the quality of reviews:
 
 ![](figures/app.png)
 
