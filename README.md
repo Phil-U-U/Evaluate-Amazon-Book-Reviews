@@ -10,11 +10,12 @@ The following shows two examples of Amazon book reviews, where the one on the to
 ![](figures/review-example.png)
 
 ## Modeling
+Our data consists of over 25,000,000 Amazon book reviews and the corresponding helpful vote pairs (number of people who found the review is helpful and total number of reviews). 
+TF-IDF converts the review text into digital matrix, which is used to train Naive Bayes Classifier for an initial evaluation of whether the review is helpful or not, i.e. provides a categorical features for random forest regressor. Also, such nemerical features as average words per sentence, number of sentences and unique punctuations and so on, are sent to random forest regressor to train the model which gives a helpfulness score ranging from 0 to 1. 
 Here is our model:
 ![](figures/model.png)
 
-Our data consists of over 25,000,000 Amazon book reviews and the corresponding helpful vote pairs (number of people who found the review is helpful and total number of reviews). 
-TF-IDF converts the review text into digital matrix, which is used to train Naive Bayes Classifier for an initial evaluation of whether the review is helpful or not, i.e. provides a categorical features for random forest regressor. Also, such nemerical features as average words per sentence, number of sentences and unique punctuations and so on, are sent to random forest regressor to train the model which gives a helpfulness score ranging from 0 to 1. 
+
 
 
 ## Web App
