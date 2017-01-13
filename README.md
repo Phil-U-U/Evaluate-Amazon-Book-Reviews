@@ -16,11 +16,18 @@ Here is our model:
 ![](figures/model.png)
 
 
-
-
 ## Web App
 
 The following is the interface of the app designed for the users to interact with the algorithm and evaluate the quality of reviews:
 
 ![](figures/app.png)
+
+## References
+[1] Image-based recommendations on styles and substitutes
+J. McAuley, C. Targett, J. Shi, A. van den Hengel
+SIGIR, 2015
+
+[2] Inferring networks of substitutable and complementary products
+J. McAuley, R. Pandey, J. Leskovec
+Knowledge Discovery and Data Mining, 2015
 
